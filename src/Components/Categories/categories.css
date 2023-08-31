@@ -1,0 +1,123 @@
+#Categories {
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+}
+.catWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 100vh;
+}
+.catLeft {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.catLeftTop {
+  flex: 2;
+  height: 430px;
+  position: relative;
+  overflow: hidden;
+}
+.catTextBig {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: white;
+  width: fit-content;
+  padding: 20px;
+}
+.catTextBig h2 {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 400;
+}
+.catTextBig p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+}
+.catText {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: white;
+  width: fit-content;
+  padding: 10px;
+}
+.catText h3 {
+  font-weight: 500;
+  margin: 0;
+}
+.catText p {
+  margin: 0;
+}
+.catLeftTop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.catLeftBottom {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.catLeftBottom1 {
+  flex: 1;
+  width: 100%;
+  height: 215px;
+  position: relative;
+  overflow: hidden;
+}
+.catLeftBottom1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.catLeftBottom2 {
+  flex: 1;
+  width: 100%;
+  height: 215px;
+  position: relative;
+  overflow: hidden;
+}
+.catLeftBottom2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.catRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100vh;
+}
+.catRightTop {
+  flex: 1;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.catRightTop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.catRightBottom {
+  flex: 2;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.catRightBottom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.catImg:hover {
+  transform: scale(1.1);
+}

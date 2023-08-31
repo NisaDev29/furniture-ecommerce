@@ -1,0 +1,109 @@
+.Email {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  border-bottom: 1px solid lightgray;
+}
+.emailLeft {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.emailLeft img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.emailText h4 {
+  margin: 0;
+  font-weight: 500;
+}
+.emailText p {
+  margin: 0;
+  font-size: 14px;
+  padding-top: 10px;
+}
+.emailRight {
+  padding: 20px;
+  flex: 1;
+}
+.emailRight input {
+  padding: 10px 15px;
+  border: 1px solid gray;
+  outline: none;
+  width: 250px;
+}
+.emailRight input:focus {
+  border: 1px solid darkblue;
+}
+.emailRight button {
+  padding: 10px 15px;
+  background-color: rgb(48, 128, 48);
+  color: white;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+  font-weight: 600;
+  width: 120px;
+}
+.footMenus {
+  width: 85%;
+  height: 180px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.footLeft {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.footCol {
+  flex: 1;
+  border-right: 1px solid lightgray;
+}
+.footCol ul li {
+  list-style: none;
+  font-size: 14px;
+  color: darkgray;
+}
+
+.footCol ul h5 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 5px;
+  color: black;
+}
+.footCol ul li:hover {
+  text-decoration: underline;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+}
+.footRight {
+  flex: 1;
+  text-align: center;
+}
+.footRight h2 {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.footRight span {
+  padding-bottom: 5px;
+  border-bottom: 1px solid lightgray;
+}

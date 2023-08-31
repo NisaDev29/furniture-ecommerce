@@ -1,0 +1,28 @@
+#Features {
+  height: 25vh;
+  background-color: darkblue;
+  color: white;
+}
+.featuresWrapper {
+  width: 80%;
+  height: 25vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.featCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.featIcon {
+  font-size: 40px;
+  padding: 20px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
