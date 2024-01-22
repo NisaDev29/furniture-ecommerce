@@ -1,3 +1,7 @@
+#OUTPUT
+This is only the front page of an ecommerce on furniture. Other pages are coming soon...
+![furniture_ecommerce_screenshot](https://github.com/NisaDev29/furniture-ecommerce/assets/143743252/d7f7d405-cd70-4d37-b468-8e05d97d626a)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
